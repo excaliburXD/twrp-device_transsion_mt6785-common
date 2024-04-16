@@ -15,13 +15,6 @@
 /vbmeta_vendor            emmc     /dev/block/platform/bootdevice/by-name/vbmeta_vendor     flags=display="Vbmeta Vendor";backup=1;flashimg=1;slotselect;
 /tranfs                   ext4     /dev/block/platform/bootdevice/by-name/tranfs            flags=display="Tranfs";
 
-## Main Auto A Partitions
-/system_root              ext4     /dev/block/platform/bootdevice/by-name/system            flags=display="System_root";backup=0
-/system_a                 emmc     /dev/block/mapper/system_a                               flags=display="System";backup=1
-/system_ext_a             emmc     /dev/block/mapper/system_ext_a                           flags=display="System_ext";backup=1
-/vendor_a                 emmc     /dev/block/mapper/vendor_a                               flags=display="Vendor";backup=1
-/product_a                emmc     /dev/block/mapper/product_a                              flags=display="Product";backup=1
-
 ## Sensitif Data (IMEI, SIM, Device Info)
 # below four partitions are ext4, but we are using only for backup so emmc
 /protect_f                emmc     /dev/block/platform/bootdevice/by-name/protect1          flags=display="Protect_f";backup=1;
