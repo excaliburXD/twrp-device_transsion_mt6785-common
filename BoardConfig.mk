@@ -97,7 +97,7 @@ BOARD_PRODUCTIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Workaround for copying error vendor files to recovery ramdisk
 TARGET_COPY_OUT_PRODUCT := product
@@ -169,6 +169,7 @@ TW_FRAMERATE := 60
 #TWRP_INCLUDE_LOGCAT := true
 #TARGET_USES_LOGD := true
 
-#PBRP_FLAGS
+# PBRP_FLAGS
 #PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
 #PB_TORCH_MAX_BRIGHTNESS := 1
+PB_DISABLE_DEFAULT_DM_VERITY := true
