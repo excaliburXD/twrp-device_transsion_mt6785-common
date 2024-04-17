@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/excaliburXD/recovery_device_tree_infinix_X695C.git'
+        default: 'https://github.com/excaliburXD/omni_device_tree_infinix_X695C.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'master'
+        default: 'pbrp'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
