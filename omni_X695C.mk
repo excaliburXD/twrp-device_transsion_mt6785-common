@@ -18,8 +18,10 @@ $(call inherit-product, device/infinix/X695C/device.mk)
 # Inherit some common Twrp stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
+# Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X695C
 PRODUCT_NAME := omni_X695C
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Note 10 Pro NFC
-PRODUCT_MANUFACTURER := infinix
+PRODUCT_MODEL := Note 10 Pro
+PRODUCT_MANUFACTURER := Infinix
+PRODUCT_RELEASE_NAME := Infinix Note 10 Pro

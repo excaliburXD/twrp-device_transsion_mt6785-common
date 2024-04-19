@@ -56,11 +56,20 @@ PRODUCT_PACKAGES += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
+    android.hardware.boot@1.1-mtkimpl.recovery \
+    android.hardware.boot@1.1-mtkimpl
 
+PRODUCT_PACKAGES_DEBUG += \
+    bootctrl
+
+# Fastbootd
 PRODUCT_PACKAGES += \
-    bootctrl.mt6785
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
+
+# MTK PlPath Utils
+PRODUCT_PACKAGES += \
+    mtk_plpath_utils.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
