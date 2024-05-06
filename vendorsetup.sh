@@ -37,7 +37,7 @@ export OF_CLOCK_POS=1
 export LC_ALL="C"
 
 # Clone to fix build on minimal manifest
-git clone https://android.googlesource.com/platform/external/gflags/ -b android-11.1.0_r4 external/gflags
+#git clone https://android.googlesource.com/platform/external/gflags/ -b android-11.1.0_r4 external/gflags
 
 # Patches
 RET=0
