@@ -102,10 +102,10 @@ PRODUCT_PACKAGES += \
     mtk_plpath_utils.recovery
 
 # Security
-PRODUCT_PACKAGES += \
-    android.hardware.security.keymint \
-    android.hardware.security.secureclock \
-    android.hardware.security.sharedsecret
+#PRODUCT_PACKAGES += \
+    #android.hardware.security.keymint \
+    #android.hardware.security.secureclock \
+    #android.hardware.security.sharedsecret
 
 # Update engine
 PRODUCT_PACKAGES += \
