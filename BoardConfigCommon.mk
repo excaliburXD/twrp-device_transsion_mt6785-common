@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_PATH := device/transsion/mt6789-common
+COMMON_PATH := device/transsion/mt6785-common
 
 TARGET_RECOVERY_DEVICE_DIRS := \
     $(COMMON_PATH) \
